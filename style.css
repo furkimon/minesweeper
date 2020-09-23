@@ -1,0 +1,79 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.initialScreen{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    background-color: #c0c0c0;
+    border: 1px solid aqua;
+}
+
+.initialScreen  > div{
+    border: 1px solid aqua;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.entryButton{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+}
+
+.grid{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c0c0c0;
+    overflow: hidden;
+    border: 1px solid aqua;
+
+}
+
+.grid div {
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    border: solid #808080;
+    border-width: 1px 0 0 1px;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+}
+
+.restart {
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    width: 80px;
+
+}
+
+
+.gameOver{
+    background: url('./mine.png');
+    background-size: cover;
+    background-color: red;
+}
+
+.checked {
+    background-color: aqua;
+}
+
+[data='1']{color: blue;}
+[data='2']{color: red;}
+[data='3']{color: green;}
+[data='4']{color: black;}
+[data='5']{color: yellow;}
+[data='6']{color: orange;}
